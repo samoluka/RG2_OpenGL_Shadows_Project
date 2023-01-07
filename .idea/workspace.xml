@@ -1,19 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afa27408-1222-45dc-921d-57d8fe0a867b" name="Changes" comment="project">
+    <list default="true" id="afa27408-1222-45dc-921d-57d8fe0a867b" name="Changes" comment="Created floor with texture">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/im_bci_pngdecoder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleLightingShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/camera/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/camera/RotatingCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/camera/StillCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/camera/UpdatableCamera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/frameBuffer/FrameBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glView/GLView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glView/KeyGLView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glView/MouseGLView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glView/MouseKeyGLView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/Shader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/ShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/dummyTextureQuadShaderProgram/DummyTextureQuadShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/dummyTextureQuadShaderProgram/fragmentShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/dummyTextureQuadShaderProgram/vertexShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/shaders/ComputeShader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/shaders/FragmentShader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/shaders/GeometryShader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/shaders/TessellationControlShader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/shaders/TessellationEvaluationShader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/shaders/VertexShader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/simpleShaderProgram/SimpleShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/simpleShaderProgram/fragmentShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/simpleShaderProgram/vertexShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/simpleTextureShaderProgram/SimpleTextureShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/simpleTextureShaderProgram/fragmentShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/glsl/simpleTextureShaderProgram/vertexShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/AbstractGraphicsObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/CameraFrustum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/CompositeGraphicsObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/ComputeShaderGraphicsObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/DummyTextureQuad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/GraphicsObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/Tetrahedron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/TextureCompositeGraphicsObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/graphicsObject/TextureQuad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/light/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/light/LightingShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/light/RotatingLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/scene/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/scene/SceneWithALight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/texture/CubeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/texture/Texture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/BasicLightingShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/gouraud/GouraudShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/gouraud/fragmentShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/gouraud/vertexShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/phong/PhongShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/phong/fragmentShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/phong/vertexShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/phongSpecular/PhongSpecularShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/phongSpecular/fragmentShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lightingShaderProgram/phongSpecular/vertexShader.glsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RG2_OpenGL_Shadows_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RG2_OpenGL_Shadows_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectId" id="2JPqxlm8x2sIx4nQfy7C12UsEEl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,12 +107,25 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "last_opened_file_path": "C:/Users/Luka-PC/Desktop/RG2_OpenGL_Shadows_Project/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Luka-PC\Desktop\RG2_OpenGL_Shadows_Project\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +135,8 @@
       <option name="presentableId" value="Default" />
       <updated>1671990317946</updated>
       <workItem from="1671990319307" duration="639000" />
+      <workItem from="1671990979740" duration="734000" />
+      <workItem from="1673120813738" duration="8483000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1671990694975</created>
@@ -54,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671990694975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Project text pdf file">
+      <created>1671991113160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671991113160</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +171,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Added Project text pdf file" />
+    <MESSAGE value="Created floor with texture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created floor with texture" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

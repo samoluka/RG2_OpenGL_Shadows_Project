@@ -10,5 +10,6 @@
     <orderEntry type="library" name="jogamp.gluegen.rt.main" level="project" />
     <orderEntry type="library" name="jogamp.jogl.all.main" level="project" />
     <orderEntry type="library" name="joml" level="project" />
+    <orderEntry type="library" name="im.bci.pngdecoder" level="project" />
   </component>
 </module>
